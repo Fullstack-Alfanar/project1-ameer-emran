@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Festive&family=Rubik+Moonrocks&display=swap" rel="stylesheet">
+    <title>My Project</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="head">
+            <h1>לוח משימות</h1>
+        </header>
+
+        <section class="board">
+            <div class="form-container">
+                <form name="contact-form" id="form-inputs">
+                    <div>
+                        <label for="content">תוכן המשימה</label>
+                        <textarea name="task-content" id="task-content" class="task-content" cols="30" rows="5" placeholder="רשום את תוכן המשימה"></textarea>   >
+                    </div>
+                    <div class="task-date">
+                        <label for="date">תאריך יעד לביצוע המשימה</label>
+                        <input type="date" name="task-date" id="task-date" >
+                    </div>
+                    <div class="task-time">
+                        <label for="time">זמן יעד לביצוע המשימה</label>
+                        <input type="time" name="task-time" id="task-time">
+                    </div>
+                    <div><button id="Addbtn" type="button">הוספה</button></div>
+                    <div><button type="reset">איפוס הטופס</button></div>
+                    <div id="form-status" class="form-status"></div>
+
+
+                </form>
+            </div>
+            <div id="container-notes" class="container-notes">
+                <ul id="Note" class="Note"></ul>
+            </div>
+        </section>
+        <footer>
+            <div class="footer-box">
+                <p>כל הזכויות שמורות- אמיר עימראן &#169;</p>
+                <ul class="nav">
+                    <li>
+                        <a href="https://github.com/ameer1004" title="GitHub"><i class="fa fa-github" style="font-size:30px"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/ameer-emran-437a54206/" title="Linkedin"><i class="fa fa-linkedin-square" style="font-size:30px">
+
+                            </i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href=" https://myaccount.google.com/personal-info?hl=iw" title="gmail"><i class="fa fa-google" style="font-size:30px"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/ameer.emran1" title="instagram"><i class="fa fa-instagram" style="font-size:30px"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
