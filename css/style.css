@@ -264,7 +264,7 @@ i {
   top: 610px;
 }
 .noteclose:hover {
-  background-image: url(/images/x\ icon.jpg);
+  background-image: url(../images/x\ icon.jpg);
   background-size: 40px 30px;
 }
 .hidden {
