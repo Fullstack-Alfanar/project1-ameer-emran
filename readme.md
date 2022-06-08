@@ -10,7 +10,7 @@
 #### The tasks added from left to right, and the task content is placed in the center of the task note and the deadline with the target time are placed in the left bottom corner of the task note. 
 
 # Installing
-1. Copy my https repository: <a href="https://github.com/Fullstack-Alfanar/project1-ameer-emran.git" target="_blank">Project 1-Ameer Emran</a>
+1. Copy my https repository: <a href="https://fullstack-alfanar.github.io/project1-ameer-emran/" target="_blank">Project 1-Ameer Emran</a>
 2. choose any terminal
 3. Git Clone- work locally with your computer
 4. Copy Repo URL
