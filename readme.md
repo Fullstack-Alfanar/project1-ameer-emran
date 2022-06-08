@@ -14,7 +14,7 @@
 2. choose any terminal
 3. Git Clone- work locally with your computer
 4. Copy Repo URL
-5. cd (The name of the repository)- choose the file homework which you want.
+5. cd (The name of the repository).
 6. type a command code .
 
 # All Rights Reserved- By Ameer Emran: Fullstack student developer: 21.05.2022 
